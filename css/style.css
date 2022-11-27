@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1200px) {
-    .body {
+    body {
         padding: calc(10px + (50 - 20) * ((100vw - 320px) / (1200 - 320)));
         font-size: calc(30px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
         margin-bottom: calc(10px + (20 - 10) * ((100vw - 320px) / (1200 - 320)));
@@ -39,7 +39,7 @@
     background: lightgreen;
     width: 70%;
     height: 70%;
-    border-radius: 20px;
+    border-radius: 15px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -58,4 +58,44 @@
 
 .addSymbol {
     font-size: 2rem;
+}
+
+.options {
+    background-color: aquamarine;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: grid;
+    border-radius: 12px;
+
+}
+
+.aAsButton {
+    text-decoration: none;
+    gap: 1rem;
+    margin: 5px;
+    padding: 5px;
+    background-color: olive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-size: 3rem;
+
+}
+
+body {
+    background: lightcoral;
+}
+
+.main p{
+    font-size: 2rem;
+}
+
+.answer{
+    font-size: 1rem;
+    border-radius: 12px;
+    gap: 1rem;
+    margin: 5px;
+    padding: 5px;
+
 }
