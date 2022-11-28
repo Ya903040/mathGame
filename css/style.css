@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1200px) {
-    body {
+    .body {
         padding: calc(10px + (50 - 20) * ((100vw - 320px) / (1200 - 320)));
         font-size: calc(30px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
         margin-bottom: calc(10px + (20 - 10) * ((100vw - 320px) / (1200 - 320)));
